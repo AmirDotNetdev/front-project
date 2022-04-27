@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
 
 }else{
     $dbc=new DB($host,$dbusr,$dbpsw,$dbname,$dbcharset);
-    $sql = "SELECT * FROM user
+    $sql = "SELECT * FROM product
             WHERE id = ?";
     $result = $dbc -> query( $sql, $_GET['id'] );
     $row = $result -> fetchArray();

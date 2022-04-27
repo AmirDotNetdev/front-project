@@ -66,12 +66,12 @@
 </style>
 <body>
     <div>
-        <form action="../Login_Controller.php" method="post">
+        <form action="../../../controller/Login.php" method="post">
             <label for="Email">رایانامه</label>
             <input type="email" name="Email" id="Email">
             <label for="Password">گذرواژه</label>
             <input type="password" name="Password" id="Password">
-            <input type="submit" value="ورود" class="button">
+            <input type="submit" value="ورود" class="button" name = "submit">
         </form>
     </div>
 </body>

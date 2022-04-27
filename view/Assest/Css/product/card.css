@@ -1,0 +1,24 @@
+.card{
+    display: inline-block;
+    margin: 8px;
+    border: 1px solid #79747E;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: start;
+    
+    font-family: Roboto;    
+    
+}
+.card.outlined{
+    background-color: #FFFBFE;
+}
+.card.elevated{
+    background-color: #FFFBFE;
+}
+.card.filled{
+    background-color: #E7E0EC;
+}
+.card-img-top{
+    width: 100%;
+}
+
