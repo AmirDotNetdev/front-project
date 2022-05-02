@@ -1,0 +1,33 @@
+.btn{
+    --height:40px;
+ 
+    line-height: calc(var(--height)/1.5);
+    font-size: 57;
+    font-weight: 400;
+    border-color: #79747E;
+    height: var(--height);
+    border-radius: calc(var(--height)/2);
+    padding: 0 24px;
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    display: block;
+    text-decoration: none;
+    
+    
+}
+.btn.btn-outlined{
+    background-color: #FFFFFF;
+    color: #6750A4;
+    border: 1px solid #1E192B;
+}
+.btn.btn-tonal{
+    background-color: #E8DEF8;
+    color: #1E192B;
+}
+.btn.btn-primary{
+    background-color: #6750A4;
+    color: #FFFFFF;
+}
+.right-align{
+    text-align: right;
+}
